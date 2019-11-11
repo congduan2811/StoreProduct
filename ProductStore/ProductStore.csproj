@@ -1523,7 +1523,6 @@
     <Content Include="assets\vendors\devbridge-autocomplete\gruntfile.js" />
     <Content Include="assets\vendors\devbridge-autocomplete\index.htm" />
     <Content Include="assets\vendors\devbridge-autocomplete\license.txt" />
-    <Content Include="assets\vendors\devbridge-autocomplete\src\jquery.autocomplete.js" />
     <Content Include="assets\vendors\dropzone\dist\basic.css" />
     <Content Include="assets\vendors\dropzone\dist\dropzone-amd-module.js" />
     <Content Include="assets\vendors\dropzone\dist\dropzone.css" />
@@ -2116,7 +2115,6 @@
     <Content Include="assets\vendors\Flot\examples\series-toggle\index.html" />
     <Content Include="assets\vendors\Flot\examples\series-types\index.html" />
     <Content Include="assets\vendors\Flot\examples\shared\jquery-ui\jquery-ui.min.css" />
-    <Content Include="assets\vendors\Flot\examples\shared\jquery-ui\jquery-ui.min.js" />
     <Content Include="assets\vendors\Flot\examples\stacking\index.html" />
     <Content Include="assets\vendors\Flot\examples\symbols\index.html" />
     <Content Include="assets\vendors\Flot\examples\threshold\index.html" />
@@ -2296,9 +2294,6 @@
     <Content Include="assets\vendors\gauge.js\dist\gauge.min.js" />
     <Content Include="assets\vendors\gauge.js\favicon.ico" />
     <Content Include="assets\vendors\gauge.js\index.html" />
-    <Content Include="assets\vendors\google-code-prettify\bin\prettify.min.css" />
-    <Content Include="assets\vendors\google-code-prettify\bin\prettify.min.js" />
-    <Content Include="assets\vendors\google-code-prettify\bin\run_prettify.min.js" />
     <Content Include="assets\vendors\google-code-prettify\CHANGES.html" />
     <Content Include="assets\vendors\google-code-prettify\examples\quine.html" />
     <Content Include="assets\vendors\google-code-prettify\README-zh-Hans.html" />
@@ -4932,6 +4927,7 @@
     <Content Include="assets\vendors\validator\.gitignore" />
     <Content Include="assets\vendors\validator\README.md" />
     <Content Include="assets\vendors\validator\validator.jquery.json" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -4960,6 +4956,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets\vendors\devbridge-autocomplete\src\" />
+    <Folder Include="assets\vendors\google-code-prettify\bin\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -4979,7 +4977,6 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="assets\vendors\devbridge-autocomplete\src\jquery.autocomplete.d.ts" />
     <TypeScriptCompile Include="assets\vendors\moment\moment.d.ts" />
   </ItemGroup>
   <PropertyGroup>
