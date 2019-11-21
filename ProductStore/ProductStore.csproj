@@ -135,6 +135,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Category\CategoryAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -4987,6 +4988,7 @@
     <Content Include="assets\vendors\validator\.gitignore" />
     <Content Include="assets\vendors\validator\README.md" />
     <Content Include="assets\vendors\validator\validator.jquery.json" />
+    <Content Include="Areas\Category\Views\web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -5016,6 +5018,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Category\Controllers\" />
+    <Folder Include="Areas\Category\Models\" />
+    <Folder Include="Areas\Category\Views\Shared\" />
     <Folder Include="assets\vendors\devbridge-autocomplete\src\" />
     <Folder Include="assets\vendors\google-code-prettify\bin\" />
     <Folder Include="Models\" />
